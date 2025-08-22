@@ -1,26 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
 @import "tailwindcss";
-
-@layer base {
-  @font-face {
-    font-family: "Geist";
-    src: url("/fonts/geist/static/Geist-Regular.ttf") format("woff2");
-    font-weight: 400;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: "Geist";
-    src: url("/fonts/geist/static/Geist-Medium.woff2") format("woff2");
-    font-weight: 500;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: "Geist";
-    src: url("/fonts/geist/static/Geist-Bold.woff2") format("woff2");
-    font-weight: 700;
-    font-style: normal;
-  }
-}
 
 @theme {
   --font-sans: "Geist", sans-serif;
+
+    /* custom colors */
+  --color-brand: #0A192F;
+  --color-brand-bg: #F8FAFC;
+  --color-secondary: #0B341B;
+  --color-brand-blue: #0B1D34;
+  --color-brand-orange: #7A2E0E;
+  --color-brand-purple: #4635B1;
+
+   /* Custom keyframes */
+  @keyframes blink {
+    0%, 50%, 100% { opacity: 1; }
+    25%, 75% { opacity: 0; }
+  }
+
+  /* Custom animation utility */
+  --animate-blink: blink 2s step-start infinite;
 }
+
+:root{
+  background-color: var(--color-brand-bg);
+}
+
