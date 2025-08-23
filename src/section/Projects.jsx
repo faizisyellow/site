@@ -7,8 +7,8 @@ const projectsData = [
     title: "Falcon",
     description:
       "Loosely designed in Figma and coded in Visual Studio Code by yours truly. Built with Next.js and Tailwind CSS, deployed with Vercel. All text is set in the Inter typeface.",
-    image: "https://cdn-p.smehost.net/sites/005297e5d91d4996984e966fac4389ea/wp-content/uploads/2025/05/Lizzy-McAlpine.png",
-    links: { github: "https://github.com/", external: "https://vercel.com/" },
+    image: "/images/falcon.png",
+    links: { github: "https://github.com/faizisyellow/falcon",  },
     stacks: [
       {
         text: "Go",
@@ -16,22 +16,12 @@ const projectsData = [
         size: TagSizes.SM,
       },
       {
-        text: "Go",
+        text: "Cobra",
         color: TagColors.BLUE,
         size: TagSizes.SM,
       },
       {
-        text: "Go",
-        color: TagColors.BLUE,
-        size: TagSizes.SM,
-      },
-      {
-        text: "Go",
-        color: TagColors.BLUE,
-        size: TagSizes.SM,
-      },
-      {
-        text: "Go",
+        text: "Bubbletea",
         color: TagColors.BLUE,
         size: TagSizes.SM,
       },
@@ -41,11 +31,16 @@ const projectsData = [
     title: "Soho",
     description:
       "Loosely designed in Figma and coded in Visual Studio Code by yours truly. Built with Next.js and Tailwind CSS, deployed with Vercel. All text is set in the Inter typeface.",
-    image: "https://cdn-p.smehost.net/sites/005297e5d91d4996984e966fac4389ea/wp-content/uploads/2025/05/Lizzy-McAlpine.png",
-    links: { github: "https://github.com/", external: "https://vercel.com/" },
+    image: "/images/soho.png",
+    links: { github: "https://github.com/faizisyellow/soho"},
     stacks: [
       {
         text: "Go",
+        color: TagColors.BLUE,
+        size: TagSizes.SM,
+      },
+      {
+        text: "Cobra",
         color: TagColors.BLUE,
         size: TagSizes.SM,
       },

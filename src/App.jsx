@@ -1,4 +1,3 @@
-// App.jsx
 import Navbar from "./components/navbar";
 import Sidebar from "./components/sidebar";
 import About from "./section/About";
@@ -11,32 +10,49 @@ import "./index.css";
 function App() {
   return (
     <div className="min-h-screen flex">
-      {/* Sidebar */}
-      <Sidebar />
+      {/* Sidebar - only show on md+ */}
+      <div className="hidden sm:block">
+        <Sidebar />
+      </div>
 
       <div className="flex-1 flex flex-col">
         {/* Top Navigation */}
         <Navbar />
 
         {/* Main Content */}
-        <main >
-          <section id="banner" className="h-screen px-4 sm:px-8 md:px-16 lg:px-24">
+        <main>
+          <section
+            id="banner"
+            className="sm:h-screen px-5 sm:px-12 md:px-16 lg:px-24"
+          >
             <Banner />
           </section>
 
-          <section className="min-h-screen px-4 sm:px-8 md:px-16 lg:px-24" id="about">
+          <section
+            id="about"
+            className="sm:min-h-screen my-36 sm:my-0 px-5 sm:px-8 md:px-16 lg:px-24"
+          >
             <About />
           </section>
 
-          <section className="min-h-screen px-4 sm:px-8 md:px-16 lg:px-24" id="skills">
+          <section
+            id="skills"
+            className="min-h-screen px-5 sm:px-8 md:px-16 lg:px-24"
+          >
             <Skills />
           </section>
 
-          <section className="min-h-screen px-4 sm:px-8 md:px-16 lg:px-24" id="projects">
+          <section
+            id="projects"
+            className="min-h-screen px-5 sm:px-8 md:px-16 lg:px-24"
+          >
             <Projects />
           </section>
 
-          <section className="min-h-screen px-4 sm:px-8 md:px-16 lg:px-24" id="experience">
+          <section
+            id="experience"
+            className="sm:min-h-screen mt-32 sm:mt-0 px-5 sm:px-8 md:px-16 lg:px-24"
+          >
             <Experience />
           </section>
         </main>

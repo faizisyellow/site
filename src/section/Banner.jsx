@@ -16,10 +16,10 @@ function Banner() {
 
         <div className="flex flex-col mt-7">
           <p className="text-brand text-sm sm:text-base md:text-lg lg:text-xl">
-            I'm a software developer specializing in back-end developer.
+            I'm a software developer specializing in backend developer.
           </p>
           <p className="text-brand text-sm sm:text-base md:text-lg lg:text-xl">
-            I like building tools to increase productive.
+            I like building tools to increase productivities.
           </p>
           <div className="flex gap-3 mt-5">
             <a
