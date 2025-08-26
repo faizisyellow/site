@@ -19,7 +19,7 @@ function Banner() {
             I'm a software developer specializing in backend developer.
           </p>
           <p className="text-brand text-sm sm:text-base md:text-lg lg:text-xl">
-            I like building tools to increase productivities.
+            I like building tools to increase productivity.
           </p>
           <div className="flex gap-3 mt-5">
             <a

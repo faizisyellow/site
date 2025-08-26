@@ -23,7 +23,7 @@ function App() {
         <main>
           <section
             id="banner"
-            className="sm:h-screen px-5 sm:px-12 md:px-16 lg:px-24"
+            className="h-screen px-5 sm:px-12 md:px-16 lg:px-24"
           >
             <Banner />
           </section>

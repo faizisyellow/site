@@ -6,7 +6,7 @@ const experiences = [
     role: "Frontend Developer",
     company: "Sekawan Media",
     type: "Internship",
-    period: "Jan 2024 - Jul 2024 · 7 Months",
+    period: "Jan 2024 - Jul 2024 · 6 Months",
     location: "Malang, Indonesia",
     description: "Assists main developer when building website.",
   },

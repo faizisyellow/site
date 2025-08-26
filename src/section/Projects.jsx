@@ -36,12 +36,12 @@ const projectsData = [
     stacks: [
       {
         text: "Go",
-        color: TagColors.BLUE,
+        color: TagColors.ORANGE,
         size: TagSizes.SM,
       },
       {
         text: "Cobra",
-        color: TagColors.BLUE,
+        color: TagColors.ORANGE,
         size: TagSizes.SM,
       },
     ],
