@@ -15,11 +15,14 @@ function Banner() {
         </h1>
 
         <div className="flex flex-col mt-7">
-          <p className="text-brand text-sm sm:text-base md:text-lg lg:text-xl">
-            I'm a software developer specializing in backend developer.
+          <p className="text-brand-purple text-lg sm:text-xl font-medium my-1 tracking-wide">
+            Based in Malang, Indonesia
           </p>
           <p className="text-brand text-sm sm:text-base md:text-lg lg:text-xl">
-            I like building tools to increase productivity.
+            I'm a software developer specializing in backend development.
+          </p>
+          <p className="text-brand text-sm sm:text-base md:text-lg lg:text-xl">
+            I like creating tools to increase productivity.
           </p>
           <div className="flex gap-3 mt-5">
             <a

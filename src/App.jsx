@@ -10,7 +10,7 @@ import "./index.css";
 function App() {
   return (
     <div className="min-h-screen flex">
-      {/* Sidebar - only show on md+ */}
+      {/* Sidebar  */}
       <div className="hidden sm:block">
         <Sidebar />
       </div>
@@ -20,10 +20,11 @@ function App() {
         <Navbar />
 
         {/* Main Content */}
+        {/* TODO: padding to big in below */}
         <main>
           <section
             id="banner"
-            className="h-screen px-5 sm:px-12 md:px-16 lg:px-24"
+            className="mb-5 sm:h-screen px-5 sm:px-12 md:px-16 lg:px-24"
           >
             <Banner />
           </section>

@@ -62,7 +62,8 @@ function Navbar() {
               EXPERIENCE
             </a>
             <a
-              href="#resume"
+              href="/files/cv.pdf"
+              download="Faissal_Maulana_CV.pdf"
               className="text-brand hover:text-secondary hover:underline transition-colors font-medium"
             >
               RESUME
@@ -140,7 +141,8 @@ function Navbar() {
             EXPERIENCE
           </a>
           <a
-            href="#resume"
+            href="/files/cv.pdf"
+            download="Faissal_Maulana_CV.pdf"
             onClick={() => setIsOpen(false)}
             className="mobile-link"
           >

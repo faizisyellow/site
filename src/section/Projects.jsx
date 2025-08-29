@@ -6,7 +6,7 @@ const projectsData = [
   {
     title: "Falcon",
     description:
-      "Loosely designed in Figma and coded in Visual Studio Code by yours truly. Built with Next.js and Tailwind CSS, deployed with Vercel. All text is set in the Inter typeface.",
+      "Falcon is a CLI tool for generating Go REST API blueprints. It lets you choose the router library and database for your project. The blueprint already includes Authentication, Swagger documentation, Zap logger, and follows the Handler–Service–Repository pattern.",
     image: "/images/falcon.png",
     links: { github: "https://github.com/faizisyellow/falcon",  },
     stacks: [
@@ -28,20 +28,20 @@ const projectsData = [
     ],
   },
   {
-    title: "Soho",
+    title: "SoHo",
     description:
-      "Loosely designed in Figma and coded in Visual Studio Code by yours truly. Built with Next.js and Tailwind CSS, deployed with Vercel. All text is set in the Inter typeface.",
+      "SoHo is a CLI tool that assists in REST API development by generating CRUD files. It is designed to be compatible with projects that generate by the FALCON CLI.",
     image: "/images/soho.png",
     links: { github: "https://github.com/faizisyellow/soho"},
     stacks: [
       {
         text: "Go",
-        color: TagColors.ORANGE,
+        color: TagColors.PURPLE,
         size: TagSizes.SM,
       },
       {
         text: "Cobra",
-        color: TagColors.ORANGE,
+        color: TagColors.PURPLE,
         size: TagSizes.SM,
       },
     ],
@@ -54,14 +54,13 @@ function Projects() {
       <TitleSection title="Projects" />
 
       {projectsData.map((element,i) => (
-        <div className="mt-4">
+        <div className="mt-4"  key={i}>
           <Card
             title={element.title}
             description={element.description}
             image={element.image}
             links={element.links}
-            tags={element.stacks}
-            key={i}
+            tags={element.stacks}    
           />
         </div>
       ))}
