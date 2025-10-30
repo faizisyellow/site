@@ -1,5 +1,5 @@
 import { ExternalLink, Github } from "./icons/Icons";
-import { Tag, TagColors, TagSizes } from "./tag";
+import { Tag } from "./tag";
 
 export default function Card({
   title,
@@ -41,16 +41,6 @@ export default function Card({
 
         {/* Icons */}
         <div className="flex gap-3 mt-3">
-          {links.github && (
-            <a
-              href={links.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-700 hover:text-black"
-            >
-              <Github fill={"none"}/>
-            </a>
-          )}
           {links.external && (
             <a
               href={links.external}
@@ -58,7 +48,17 @@ export default function Card({
               rel="noopener noreferrer"
               className="text-gray-700 hover:text-black"
             >
-              <ExternalLink fill={"none"}/>
+              <ExternalLink fill={"none"} />
+            </a>
+          )}
+          {links.github && (
+            <a
+              href={links.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-700 hover:text-black"
+            >
+              <Github fill={"none"} />
             </a>
           )}
         </div>

@@ -20,7 +20,6 @@ function App() {
         <Navbar />
 
         {/* Main Content */}
-        {/* TODO: padding to big in below */}
         <main>
           <section
             id="banner"
@@ -45,7 +44,7 @@ function App() {
 
           <section
             id="projects"
-            className="min-h-screen px-5 sm:px-8 md:px-16 lg:px-24"
+            className="min-h-screen pb-16 px-5 sm:px-8 md:px-16 lg:px-24"
           >
             <Projects />
           </section>

@@ -8,7 +8,7 @@ const projectsData = [
     description:
       "Falcon is a CLI tool for generating Go REST API blueprints. It lets you choose the router library and database for your project. The blueprint already includes Authentication, Swagger documentation, Zap logger, and follows the Handler–Service–Repository pattern.",
     image: "/images/falcon.png",
-    links: { github: "https://github.com/faizisyellow/falcon",  },
+    links: { github: "https://github.com/faizisyellow/falcon" },
     stacks: [
       {
         text: "Go",
@@ -32,7 +32,7 @@ const projectsData = [
     description:
       "SoHo is a CLI tool that assists in REST API development by generating CRUD files. It is designed to be compatible with projects that generate by the FALCON CLI.",
     image: "/images/soho.png",
-    links: { github: "https://github.com/faizisyellow/soho"},
+    links: { github: "https://github.com/faizisyellow/soho" },
     stacks: [
       {
         text: "Go",
@@ -46,6 +46,43 @@ const projectsData = [
       },
     ],
   },
+  {
+    title: "Indocoffee",
+    description:
+      "Indocoffee is a web application that allows users to buy coffee and manage selling coffee.",
+    image: "/images/indocoffee.png",
+    links: {
+      external: "https://indocoffee-website.vercel.app/",
+      github: "https://github.com/faizisyellow/indocoffee",
+    },
+    stacks: [
+      {
+        text: "Go",
+        color: TagColors.GREEN,
+        size: TagSizes.SM,
+      },
+      {
+        text: "SoHo",
+        color: TagColors.GREEN,
+        size: TagSizes.SM,
+      },
+      {
+        text: "Mysql",
+        color: TagColors.GREEN,
+        size: TagSizes.SM,
+      },
+      {
+        text: "Redis",
+        color: TagColors.GREEN,
+        size: TagSizes.SM,
+      },
+      {
+        text: "React",
+        color: TagColors.GREEN,
+        size: TagSizes.SM,
+      },
+    ],
+  },
 ];
 
 function Projects() {
@@ -53,14 +90,14 @@ function Projects() {
     <>
       <TitleSection title="Projects" />
 
-      {projectsData.map((element,i) => (
-        <div className="mt-4"  key={i}>
+      {projectsData.map((element, i) => (
+        <div className="mt-4" key={i}>
           <Card
             title={element.title}
             description={element.description}
             image={element.image}
             links={element.links}
-            tags={element.stacks}    
+            tags={element.stacks}
           />
         </div>
       ))}
