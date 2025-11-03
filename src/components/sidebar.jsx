@@ -39,7 +39,7 @@ function Sidebar() {
 
         <button className="p-2 hover:bg-gray-100 rounded-lg transition-colors">
           <a
-            href="/resume/Certificate_Faissal.pdf"
+            href="/resume/resume.pdf"
             target="_blank"
             onMouseEnter={() => setFileFill("#4635B1")}
             onMouseLeave={() => setFileFill("none")}

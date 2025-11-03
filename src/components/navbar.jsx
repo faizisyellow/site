@@ -62,8 +62,7 @@ function Navbar() {
               EXPERIENCE
             </a>
             <a
-              href="/files/cv.pdf"
-              download="Faissal_Maulana_CV.pdf"
+              href="/resume/resume.pdf"
               className="text-brand hover:text-secondary hover:underline transition-colors font-medium"
             >
               RESUME

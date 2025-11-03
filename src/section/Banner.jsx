@@ -35,7 +35,7 @@ function Banner() {
               <Github fill={githubFill} />
             </a>
             <a
-              href="/resume/Certificate_Faissal.pdf"
+              href="/resume/resume.pdf"
               target="_blank"
               onMouseEnter={() => setFileFill("#4635B1")}
               onMouseLeave={() => setFileFill("none")}
